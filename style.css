@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    ;
+    background-color: #fbcfa2;
+    color: #b74932;
+    font-size: larger;
+    max-width: 100%;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #b74932;
+    color: #b74932;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fbcfa2;
+    content: 'YD';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.usually {
+    font-size: larger;
+    text-align: justify;
+}
+
+.form {
+    font-size: 18px;
+    text-align: justify;
+    padding: 0 0 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(163, 89, 62);
+}
+
+a:active {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: white;
+    border-radius: 10px;
+}
+.card {
+    border: 2px dashed #b74932;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+.card h2 {
+    padding: 0px 0px 2px 0px;
+}
+.list {
+    list-style: disc;
+}
+.card form {
+    text-align: center;
+}
+
+.contact label {
+    display: block;
+    margin-top: 5px;
+}
+.contact input,
+.contact textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #b74932;
+    background: transparent;
+    padding: 10px 0 10px 5px;
+    outline: none;
+    font-family: inherit;
+    font-size: 14px;
+}
+.contact input {
+    margin-bottom: 10px;
+}
+.contact textarea {
+    margin-top: 10px;
+}
+.sector {
+    width: 50%;
+}
